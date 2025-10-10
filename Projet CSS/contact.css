@@ -1,0 +1,176 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    color: #fbfbfb;
+    background-image: url("image/imgabck1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Grid Layout for Main Content */
+main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 80vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(245, 245, 245, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+/* Flexbox for Navigation */
+.nav-flex {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.nav-flex a {
+    color: #fbfbfb;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-flex a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Grid for Main Content Area */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+/* Contact Details Section */
+.contact-section {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(245, 245, 245, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-item a {
+    color: #fbfbfb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+/* Form Container */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(245, 245, 245, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+/* Flexbox for Form */
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-weight: bold;
+    color: #fbfbfb;
+}
+
+/* Remove borders from input fields */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+/* Remove border from button */
+button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #34495e;
+}
+
+    
+    .nav-flex {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    main {
+        gap: 20px;
+    }
+
+/* Headings */
+h1, h2 {
+    color: #a70d0d;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 8px;
+}
