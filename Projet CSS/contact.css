@@ -11,7 +11,6 @@ body {
     min-height: 100vh;
 }
 
-/* Grid Layout for Main Content */
 main {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -31,12 +30,12 @@ header {
     backdrop-filter: blur(5px);
 }
 
-/* Flexbox for Navigation */
 .nav-flex {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 15px;
+    
 }
 
 .nav-flex a {
@@ -48,10 +47,9 @@ header {
 }
 
 .nav-flex a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(125, 179, 17, 0.288);
 }
 
-/* Grid for Main Content Area */
 .content-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -59,7 +57,6 @@ header {
     align-items: start;
 }
 
-/* Contact Details Section */
 .contact-section {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 25px;
@@ -92,7 +89,6 @@ header {
     text-decoration: underline;
 }
 
-/* Form Container */
 .form-container {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 25px;
@@ -101,7 +97,6 @@ header {
     backdrop-filter: blur(5px);
 }
 
-/* Flexbox for Form */
 .form-flex {
     display: flex;
     flex-direction: column;
@@ -118,8 +113,6 @@ label {
     font-weight: bold;
     color: #fbfbfb;
 }
-
-/* Remove borders from input fields */
 input, textarea {
     width: 100%;
     padding: 12px;
@@ -130,7 +123,6 @@ input, textarea {
     font-size: 16px;
 }
 
-/* Remove border from button */
 button {
     background-color: #2c3e50;
     color: white;
@@ -147,9 +139,7 @@ button {
 button:hover {
     background-color: #34495e;
 }
-
-    
-    .nav-flex {
+   .nav-flex {
         flex-direction: column;
         gap: 10px;
         align-items: center;
@@ -159,7 +149,6 @@ button:hover {
         gap: 20px;
     }
 
-/* Headings */
 h1, h2 {
     color: #a70d0d;
     margin-bottom: 15px;
@@ -173,4 +162,7 @@ h2 {
     font-size: 1.8rem;
     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
     padding-bottom: 8px;
+}
+.nav-flex a{
+    border: 1px solid rgba(0, 0, 0, 0.669);
 }
