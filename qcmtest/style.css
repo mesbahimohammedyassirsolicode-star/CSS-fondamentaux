@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    border: solid rgba(0, 0, 0, 0.162);
+justify-content: space-between;
+min-height: 400px;
+align-items: center;
+}
+
+.box{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    font-size: 40pt;
+}

@@ -41,13 +41,19 @@
             .home a {
                 margin: 0 15px;
                 text-decoration: none;
-                color: #2c3e50;
+                color: #f9f9f9;
                 font-weight: bold;
                 padding: 5px 10px;
                 border-radius: 4px;
             }
             .home a:hover {
+                transform: scale(1.2) rotate(5deg);
+  background: linear-gradient(45deg, #035bf4, #6ff0e6);
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
                 background-color: #09203f;
+                  opacity: 0.7;
+
             }
 
             header h1 {
